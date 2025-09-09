@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <text x="600" y="56" text-anchor="middle" font-family="Inter, Arial" font-size="30" fill="#0F172A">Atomic Hierarchy</text>
+  <!-- Pyramid -->
+  <g fill="#E2E8F0" stroke="#94A3B8">
+    <polygon points="600,120 320,520 880,520"/>
+  </g>
+  <!-- Levels -->
+  <g font-family="Inter, Arial" font-size="16" fill="#0F172A" text-anchor="middle">
+    <text x="600" y="160">Templates & Pages</text>
+    <line x1="420" y1="220" x2="780" y2="220" stroke="#CBD5E1"/>
+    <text x="600" y="250">Organisms</text>
+    <line x1="380" y1="300" x2="820" y2="300" stroke="#CBD5E1"/>
+    <text x="600" y="330">Molecules</text>
+    <line x1="340" y1="380" x2="860" y2="380" stroke="#CBD5E1"/>
+    <text x="600" y="410">Atoms</text>
+    <line x1="300" y1="460" x2="900" y2="460" stroke="#CBD5E1"/>
+    <text x="600" y="490">Design Tokens</text>
+  </g>
+</svg>
+
+
+

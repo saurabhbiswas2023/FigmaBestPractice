@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F8FAFC"/>
+  <text x="600" y="56" text-anchor="middle" font-family="Inter, Arial" font-size="30" fill="#0F172A">Light · Dark · High Contrast</text>
+  <g transform="translate(90,120)">
+    <rect x="0" y="0" width="320" height="380" rx="16" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="160" y="40" text-anchor="middle" font-family="Inter, Arial" font-size="18" fill="#334155">Light</text>
+    <rect x="40" y="90" width="240" height="40" rx="8" fill="#E2E8F0"/>
+    <rect x="40" y="150" width="200" height="40" rx="8" fill="#E2E8F0"/>
+    <rect x="40" y="210" width="220" height="80" rx="8" fill="#E2E8F0"/>
+  </g>
+  <g transform="translate(440,120)">
+    <rect x="0" y="0" width="320" height="380" rx="16" fill="#0F172A" stroke="#334155"/>
+    <text x="160" y="40" text-anchor="middle" font-family="Inter, Arial" font-size="18" fill="#E2E8F0">Dark</text>
+    <rect x="40" y="90" width="240" height="40" rx="8" fill="#1F2937"/>
+    <rect x="40" y="150" width="200" height="40" rx="8" fill="#1F2937"/>
+    <rect x="40" y="210" width="220" height="80" rx="8" fill="#1F2937"/>
+  </g>
+  <g transform="translate(790,120)">
+    <rect x="0" y="0" width="320" height="380" rx="16" fill="#000000" stroke="#FFFFFF"/>
+    <text x="160" y="40" text-anchor="middle" font-family="Inter, Arial" font-size="18" fill="#FFFFFF">High Contrast</text>
+    <rect x="40" y="90" width="240" height="40" rx="8" fill="#FFFF00"/>
+    <rect x="40" y="150" width="200" height="40" rx="8" fill="#00FF00"/>
+    <rect x="40" y="210" width="220" height="80" rx="8" fill="#FF00FF"/>
+  </g>
+</svg>
+
+
+

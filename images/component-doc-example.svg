@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <text x="600" y="56" text-anchor="middle" font-family="Inter, Arial" font-size="30" fill="#0F172A">Component Documentation Example</text>
+  <g transform="translate(120,110)">
+    <rect x="0" y="0" width="960" height="420" rx="16" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <rect x="40" y="40" width="320" height="200" rx="10" fill="#E2E8F0"/>
+    <text x="200" y="270" text-anchor="middle" font-family="Inter, Arial" font-size="16" fill="#334155">Component</text>
+    <g font-family="Inter, Arial" font-size="14" fill="#0F172A">
+      <text x="420" y="80">Purpose: Primary button for calls to action</text>
+      <text x="420" y="110">Usage: Use one per screen; avoid overuse</text>
+      <text x="420" y="140">Anatomy: Icon (optional) + Label</text>
+      <text x="420" y="170">States: Default, Hover, Pressed, Focus, Disabled, Loading</text>
+      <text x="420" y="200">Accessibility: Min contrast 4.5:1, Focus ring 3px</text>
+      <text x="420" y="230">Do: Clear, concise labels</text>
+      <text x="420" y="260">Don't: Use for secondary actions</text>
+    </g>
+  </g>
+</svg>
+
+
+

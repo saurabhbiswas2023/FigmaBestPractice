@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <text x="600" y="56" text-anchor="middle" font-family="Inter, Arial" font-size="30" fill="#0F172A">Top 10 Design System Mistakes</text>
+  <g font-family="Inter, Arial" font-size="16" fill="#0F172A">
+    <text x="140" y="120">1. Starting too big</text>
+    <text x="140" y="150">2. Ignoring design debt</text>
+    <text x="140" y="180">3. Lack of governance</text>
+    <text x="140" y="210">4. Over-engineering components</text>
+    <text x="140" y="240">5. Poor documentation</text>
+    <text x="640" y="120">6. Ignoring user feedback</text>
+    <text x="640" y="150">7. Platform inconsistency</text>
+    <text x="640" y="180">8. Accessibility as afterthought</text>
+    <text x="640" y="210">9. No migration strategy</text>
+    <text x="640" y="240">10. Perfectionist paralysis</text>
+  </g>
+</svg>
+
+
+

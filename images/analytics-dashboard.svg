@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <text x="600" y="56" text-anchor="middle" font-family="Inter, Arial" font-size="30" fill="#0F172A">Design System Analytics</text>
+  <g transform="translate(120,110)">
+    <rect x="0" y="0" width="960" height="420" rx="16" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <rect x="40" y="40" width="420" height="160" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="500" y="40" width="420" height="160" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="40" y="220" width="880" height="160" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <!-- Bar chart -->
+    <g fill="#60A5FA">
+      <rect x="70" y="300" width="40" height="60"/>
+      <rect x="130" y="280" width="40" height="80"/>
+      <rect x="190" y="260" width="40" height="100"/>
+      <rect x="250" y="310" width="40" height="50"/>
+      <rect x="310" y="240" width="40" height="120"/>
+    </g>
+    <!-- Line graph -->
+    <polyline points="540,170 600,120 660,140 720,100 780,130 840,90 900,110" fill="none" stroke="#22C55E" stroke-width="4"/>
+  </g>
+</svg>
+
+
+

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <text x="600" y="56" text-anchor="middle" font-family="Inter, Arial" font-size="30" fill="#0F172A">Scaling Across Products & Platforms</text>
+  <g stroke="#CBD5E1" stroke-width="2" fill="#F8FAFC">
+    <rect x="490" y="140" width="220" height="80" rx="10"/>
+  </g>
+  <text x="600" y="190" text-anchor="middle" font-family="Inter, Arial" font-size="18" fill="#0F172A">Design System</text>
+  <g stroke="#64748B" stroke-width="3" fill="none">
+    <line x1="600" y1="220" x2="300" y2="300"/>
+    <line x1="600" y1="220" x2="600" y2="300"/>
+    <line x1="600" y1="220" x2="900" y2="300"/>
+  </g>
+  <g fill="#E2E8F0" stroke="#CBD5E1">
+    <rect x="220" y="300" width="160" height="70" rx="10"/>
+    <rect x="520" y="300" width="160" height="70" rx="10"/>
+    <rect x="820" y="300" width="160" height="70" rx="10"/>
+  </g>
+  <g font-family="Inter, Arial" font-size="16" fill="#334155">
+    <text x="300" y="345" text-anchor="middle">Web</text>
+    <text x="600" y="345" text-anchor="middle">iOS / Android</text>
+    <text x="900" y="345" text-anchor="middle">Desktop</text>
+  </g>
+</svg>
+
+
+

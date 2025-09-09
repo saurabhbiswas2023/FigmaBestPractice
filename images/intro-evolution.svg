@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EEF2F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="600" y="60" text-anchor="middle" font-family="Inter, Arial" font-size="32" fill="#0F172A">Evolution: Scattered Files → Organized Design System</text>
+
+  <!-- Left: Scattered files -->
+  <g transform="translate(120,120)">
+    <rect x="0" y="0" width="420" height="390" rx="16" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="210" y="40" text-anchor="middle" font-family="Inter, Arial" font-size="20" fill="#334155">Before: Scattered</text>
+    <g fill="#94A3B8">
+      <rect x="30" y="80" width="120" height="90" rx="8"/>
+      <rect x="180" y="80" width="90" height="120" rx="8"/>
+      <rect x="300" y="80" width="120" height="70" rx="8"/>
+      <rect x="60" y="200" width="100" height="70" rx="8"/>
+      <rect x="200" y="220" width="140" height="60" rx="8"/>
+      <rect x="90" y="290" width="140" height="50" rx="8"/>
+    </g>
+    <text x="210" y="360" text-anchor="middle" font-family="Inter, Arial" font-size="16" fill="#475569">Multiple files, versions, and tools</text>
+  </g>
+
+  <!-- Right: Organized system -->
+  <g transform="translate(660,120)">
+    <rect x="0" y="0" width="420" height="390" rx="16" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="210" y="40" text-anchor="middle" font-family="Inter, Arial" font-size="20" fill="#334155">After: Organized System</text>
+    <rect x="40" y="80" width="340" height="50" rx="10" fill="#E0F2FE" stroke="#7DD3FC"/>
+    <text x="210" y="112" text-anchor="middle" font-family="Inter, Arial" font-size="16" fill="#0369A1">Design Tokens</text>
+    <rect x="60" y="150" width="300" height="50" rx="10" fill="#E2E8F0" stroke="#94A3B8"/>
+    <text x="210" y="182" text-anchor="middle" font-family="Inter, Arial" font-size="16" fill="#334155">Components</text>
+    <rect x="80" y="220" width="260" height="50" rx="10" fill="#DCFCE7" stroke="#86EFAC"/>
+    <text x="210" y="252" text-anchor="middle" font-family="Inter, Arial" font-size="16" fill="#166534">Patterns</text>
+    <rect x="100" y="290" width="220" height="50" rx="10" fill="#F5F3FF" stroke="#C4B5FD"/>
+    <text x="210" y="322" text-anchor="middle" font-family="Inter, Arial" font-size="16" fill="#4C1D95">Templates</text>
+  </g>
+
+  <!-- Arrow -->
+  <g stroke="#64748B" stroke-width="4" fill="none">
+    <line x1="560" y1="315" x2="640" y2="315"/>
+    <polygon points="640,315 620,305 620,325" fill="#64748B"/>
+  </g>
+</svg>
+
+
+

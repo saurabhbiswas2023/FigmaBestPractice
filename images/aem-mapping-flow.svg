@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F8FAFC"/>
+  <text x="600" y="56" text-anchor="middle" font-family="Inter, Arial" font-size="30" fill="#0F172A">Figma → Tokens → Storybook → AEM → Production</text>
+  <g font-family="Inter, Arial" font-size="18" fill="#0F172A" stroke="#CBD5E1" stroke-width="2">
+    <rect x="80" y="220" width="180" height="80" rx="10" fill="#FFFFFF"/>
+    <text x="170" y="268" text-anchor="middle">Figma</text>
+    <rect x="310" y="220" width="180" height="80" rx="10" fill="#FFFFFF"/>
+    <text x="400" y="268" text-anchor="middle">Design Tokens</text>
+    <rect x="540" y="220" width="180" height="80" rx="10" fill="#FFFFFF"/>
+    <text x="630" y="268" text-anchor="middle">Storybook</text>
+    <rect x="770" y="220" width="180" height="80" rx="10" fill="#FFFFFF"/>
+    <text x="860" y="268" text-anchor="middle">AEM</text>
+    <rect x="1000" y="220" width="120" height="80" rx="10" fill="#FFFFFF"/>
+    <text x="1060" y="268" text-anchor="middle">Prod</text>
+  </g>
+  <g stroke="#64748B" stroke-width="4" fill="#64748B">
+    <line x1="260" y1="260" x2="310" y2="260"/>
+    <polygon points="310,260 295,250 295,270"/>
+    <line x1="490" y1="260" x2="540" y2="260"/>
+    <polygon points="540,260 525,250 525,270"/>
+    <line x1="720" y1="260" x2="770" y2="260"/>
+    <polygon points="770,260 755,250 755,270"/>
+    <line x1="950" y1="260" x2="1000" y2="260"/>
+    <polygon points="1000,260 985,250 985,270"/>
+  </g>
+</svg>
+
+
+

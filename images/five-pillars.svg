@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <text x="600" y="56" text-anchor="middle" font-family="Inter, Arial" font-size="30" fill="#0F172A">Five Pillars of a Successful Design System</text>
+  <g transform="translate(80,140)" fill="#F8FAFC" stroke="#CBD5E1">
+    <rect x="0" y="0" width="200" height="360"/>
+    <rect x="210" y="0" width="200" height="360"/>
+    <rect x="420" y="0" width="200" height="360"/>
+    <rect x="630" y="0" width="200" height="360"/>
+    <rect x="840" y="0" width="200" height="360"/>
+  </g>
+  <g font-family="Inter, Arial" font-size="18" fill="#0F172A" text-anchor="middle">
+    <text x="180" y="180">Consistency</text>
+    <text x="390" y="180">Scalability</text>
+    <text x="600" y="180">Efficiency</text>
+    <text x="810" y="180">Clarity</text>
+    <text x="1020" y="180">Governance</text>
+  </g>
+  <g font-family="Inter, Arial" font-size="14" fill="#334155" text-anchor="start">
+    <!-- Consistency bullets -->
+    <text x="100" y="210">• Visual patterns</text>
+    <text x="100" y="234">• Behavioral patterns</text>
+    <text x="100" y="258">• Naming & terminology</text>
+    <text x="100" y="282">• Design ↔ code parity</text>
+    
+    <!-- Scalability bullets -->
+    <text x="310" y="210">• Multi-brand / theming</text>
+    <text x="310" y="234">• Cross-platform support</text>
+    <text x="310" y="258">• Modular libraries</text>
+    <text x="310" y="282">• Performance at scale</text>
+    
+    <!-- Efficiency bullets -->
+    <text x="520" y="210">• Faster design iteration</text>
+    <text x="520" y="234">• Faster development</text>
+    <text x="520" y="258">• Smooth handoff</text>
+    <text x="520" y="282">• Lower maintenance</text>
+    
+    <!-- Clarity bullets -->
+    <text x="730" y="210">• Docs & live examples</text>
+    <text x="730" y="234">• Clear states & usage</text>
+    <text x="730" y="258">• Contribution path</text>
+    <text x="730" y="282">• Implementation specs</text>
+    
+    <!-- Governance bullets -->
+    <text x="940" y="210">• Roles & ownership</text>
+    <text x="940" y="234">• Versioning & changelog</text>
+    <text x="940" y="258">• Quality gates</text>
+    <text x="940" y="282">• Community feedback</text>
+  </g>
+</svg>
+
+
+

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F8FAFC"/>
+  <text x="600" y="56" text-anchor="middle" font-family="Inter, Arial" font-size="30" fill="#0F172A">Traditional vs. Figma-Based Workflow</text>
+  <!-- Traditional -->
+  <g transform="translate(100,100)">
+    <rect x="0" y="0" width="440" height="420" rx="16" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="220" y="40" text-anchor="middle" font-family="Inter, Arial" font-size="20" fill="#334155">Traditional</text>
+    <g stroke="#94A3B8" stroke-width="3" fill="#E2E8F0">
+      <rect x="60" y="90" width="120" height="60" rx="8"/>
+      <rect x="260" y="90" width="120" height="60" rx="8"/>
+      <rect x="160" y="180" width="120" height="60" rx="8"/>
+    </g>
+    <g stroke="#64748B" stroke-width="3" fill="none">
+      <line x1="180" y1="120" x2="260" y2="120"/>
+      <line x1="120" y1="150" x2="180" y2="210"/>
+      <line x1="340" y1="150" x2="280" y2="210"/>
+    </g>
+    <text x="220" y="270" text-anchor="middle" font-family="Inter, Arial" font-size="14" fill="#64748B">Multiple tools · File copies · Version conflicts</text>
+  </g>
+  <!-- Figma -->
+  <g transform="translate(660,100)">
+    <rect x="0" y="0" width="440" height="420" rx="16" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="220" y="40" text-anchor="middle" font-family="Inter, Arial" font-size="20" fill="#334155">Figma-Based</text>
+    <g>
+      <rect x="50" y="90" width="340" height="50" rx="10" fill="#E0F2FE" stroke="#7DD3FC"/>
+      <rect x="80" y="160" width="280" height="50" rx="10" fill="#E2E8F0" stroke="#94A3B8"/>
+      <rect x="110" y="230" width="220" height="50" rx="10" fill="#DCFCE7" stroke="#86EFAC"/>
+      <rect x="140" y="300" width="160" height="50" rx="10" fill="#F5F3FF" stroke="#C4B5FD"/>
+    </g>
+    <text x="220" y="370" text-anchor="middle" font-family="Inter, Arial" font-size="14" fill="#64748B">Single source of truth · Live collaboration · Design tokens</text>
+  </g>
+</svg>
+
+
+
