@@ -1,7 +1,7 @@
 # Mastering Figma Design Systems: A Comprehensive Guide to Building Scalable, Future-Ready Design Solutions
 
 ![Cover: Mastering Figma Design Systems](images/cover-design-systems.svg "Strategy → Tokens → Components → Patterns → Templates → Code, guided by five pillars")
-Strategy → Tokens → Components → Patterns → Templates → Code
+_Caption: Strategy → Tokens → Components → Patterns → Templates → Code, guided by five pillars._
 
 *Transform your design workflow with battle-tested strategies for creating robust design systems in Figma*
 
@@ -372,22 +372,7 @@ Even though Figma is a visual tool, thinking in API terms helps:
 
 
 
-```mermaid
-flowchart TB
-  DS([Design System]) --> Web([Web])
-  DS --> Mobile([iOS / Android])
-  DS --> Desktop([Desktop])
-  subgraph Shared
-    Tokens([Tokens])
-    Libs([Component Libraries])
-    Templates([Templates])
-  end
-  DS --- Tokens
-  DS --- Libs
-  DS --- Templates
-  classDef box fill:#F8FAFC,stroke:#CBD5E1,color:#0F172A;
-  class DS,Web,Mobile,Desktop,Tokens,Libs,Templates box;
-```
+![Design System Sharing](images/shared-architecture.svg "Design system shares tokens, libraries and templates with platforms")
 
 
 ---
@@ -398,17 +383,7 @@ flowchart TB
 
 The best design systems bridge the gap between design and development seamlessly:
 
-```mermaid
-flowchart LR
-  Figma[Figma Component] --> Tokens[Exported Tokens]
-  Figma --> Specs[Component Specs]
-  Tokens --> Build[Build Pipeline]
-  Specs --> Build
-  Build --> Storybook[Storybook/Docs]
-  Build --> Code[Code Components]
-  classDef node fill:#F8FAFC,stroke:#CBD5E1,color:#0F172A;
-  class Figma,Tokens,Specs,Build,Storybook,Code node;
-```
+![Design to Code Handoff](images/dev-handoff-flow.svg "Figma component → tokens/specs → build → Storybook/docs and code")
 
 #### Token-Based Approach
 Structure your design tokens to match development needs:
