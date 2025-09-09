@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <text x="600" y="56" text-anchor="middle" font-family="Inter, Arial" font-size="28" fill="#0F172A">Atomic Design Hierarchy with Design Tokens</text>
+
+  <!-- Pyramid shape -->
+  <g fill="#F8FAFC" stroke="#CBD5E1">
+    <!-- Base: Tokens -->
+    <polygon points="200,520 1000,520 600,560" fill="#EEF2FF"/>
+    <!-- Atoms -->
+    <polygon points="260,440 940,440 600,490"/>
+    <!-- Molecules -->
+    <polygon points="320,360 880,360 600,420"/>
+    <!-- Organisms -->
+    <polygon points="380,280 820,280 600,350"/>
+    <!-- Templates & Pages -->
+    <polygon points="440,200 760,200 600,280"/>
+  </g>
+
+  <!-- Labels -->
+  <g font-family="Inter, Arial" text-anchor="middle">
+    <text x="600" y="242" font-size="18" fill="#0F172A" font-weight="600">Templates & Pages</text>
+    <text x="600" y="318" font-size="18" fill="#0F172A" font-weight="600">Organisms</text>
+    <text x="600" y="394" font-size="18" fill="#0F172A" font-weight="600">Molecules</text>
+    <text x="600" y="470" font-size="18" fill="#0F172A" font-weight="600">Atoms</text>
+    <text x="600" y="548" font-size="18" fill="#1D4ED8" font-weight="700">Design Tokens (Subatomic)</text>
+  </g>
+
+  <!-- Sub labels -->
+  <g font-family="Inter, Arial" font-size="13" fill="#334155" text-anchor="middle">
+    <text x="600" y="262">Page shells • Layouts</text>
+    <text x="600" y="338">Headers • Forms • Lists</text>
+    <text x="600" y="414">Card • Nav item • Form group</text>
+    <text x="600" y="490">Buttons • Inputs • Icons • Text</text>
+    <text x="600" y="568">Color • Typography • Spacing • Radii • Elevation • Effects</text>
+  </g>
+</svg>
+
