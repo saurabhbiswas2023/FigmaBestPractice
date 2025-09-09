@@ -1,5 +1,8 @@
 # Mastering Figma Design Systems: A Comprehensive Guide to Building Scalable, Future-Ready Design Solutions
 
+![Cover: Mastering Figma Design Systems](images/cover-design-systems.svg "Strategy → Tokens → Components → Patterns → Templates → Code, guided by five pillars")
+_Caption: Strategy → Tokens → Components → Patterns → Templates → Code, guided by five pillars._
+
 *Transform your design workflow with battle-tested strategies for creating robust design systems in Figma*
 
 ---
@@ -68,6 +71,8 @@ The foundation of any successful design system starts with clear strategic align
 Building on Brad Frost's Atomic Design methodology and adapted for modern Figma capabilities, the optimal structure follows this enhanced hierarchy:
 
 #### 1. Design Tokens (Subatomic Level)
+
+
 ```
 Design Tokens/
 ├── Colors/
@@ -90,14 +95,16 @@ Design Tokens/
     └── Animations
 ```
 
+![Design Tokens](images/design-tokens-subatomic.svg "Desin Tokens")
 #### 2. Atoms (Basic Components)
 The atomic level includes fundamental UI elements that serve as building blocks:
-- **Typography**: Headings, body text, labels, captions
-- **Colors**: Brand colors, semantic colors, utility colors  
-- **Icons**: System icons, brand icons, social icons
-- **Images**: Aspect ratios, treatments, overlays
+- **Select**:Options
+- **Links**: Internal and external
 - **Basic Inputs**: Text fields, checkboxes, radio buttons
 - **Buttons**: Primary, secondary, tertiary variations
+
+![Atoms: Select, Links, Inputs, Buttons](images/atoms-basic.svg "Atoms overview: select, links, inputs, buttons")
+
 
 #### 3. Molecules (Component Groups)
 - **Form groups**: Input + label + help text + validation
@@ -106,6 +113,8 @@ The atomic level includes fundamental UI elements that serve as building blocks:
 - **Button groups**: Primary + secondary action combinations
 - **List items**: Content + metadata + interactive elements
 - **Teaser components**: Preview content with call-to-action
+
+![Molecules: Form group, Card, Navigation, List item, Button group](images/molecules-examples.svg "Molecules overview: form group, card, nav item, list item, button group")
 
 #### 4. Organisms (Complex Components)
 - **Headers**: Branding + navigation + user controls
@@ -117,22 +126,18 @@ The atomic level includes fundamental UI elements that serve as building blocks:
 - **Search components**: Search inputs + filters + results
 - **Article layouts**: Content structure + metadata + sharing
 
+![Organisms: Header, Nav, Form layout, Product grid, Footer](images/organisms-examples.svg "Organisms overview in an application shell")
+
 #### 5. Templates & Pages
 - Page layouts
 - Grid systems
 - Application shells
 
+![Templates & Pages: Dashboard and Article](images/templates-pages.svg "Templates: dashboard shell and article page with sidebar")
 
 
-```mermaid
-flowchart TB
-  Tokens([Design Tokens]) --> Atoms([Atoms])
-  Atoms --> Molecules([Molecules])
-  Molecules --> Organisms([Organisms])
-  Organisms --> Templates([Templates & Pages])
-  classDef lvl fill:#E2E8F0,stroke:#94A3B8,color:#0F172A;
-  class Tokens,Atoms,Molecules,Organisms,Templates lvl;
-```
+
+
 
 ### File Organization Strategy
 
@@ -196,9 +201,6 @@ Auto Layout is the secret weapon for creating truly responsive components. Best 
 - **Nested Auto Layout**: Create complex layouts with multiple auto layout containers
 - **Direction Control**: Know when to stack horizontally vs. vertically
 
-![Auto Layout Demo](images/auto-layout-demo.svg "Auto Layout demonstration of responsive structure")
-
-
 #### 3. State Management
 
 Every interactive component should clearly define its states:
@@ -210,6 +212,7 @@ Every interactive component should clearly define its states:
 - **Disabled State**: Non-interactive appearance
 - **Loading State**: For async operations
 - **Error State**: For form validation
+
 
 ---
 
@@ -244,6 +247,7 @@ Color Variables Structure:
 - **Platform Modes**: iOS vs Android vs Web variations
 
 ![Mode Comparison: Light, Dark, High Contrast](images/modes-comparison.svg "Modes: light, dark, and high contrast")
+
 
 
 ### Component Architecture Patterns
@@ -298,10 +302,8 @@ Every component should include:
 - **Behavior Specifications**: How does it respond to interaction?
 - **Accessibility Notes**: Screen reader support, keyboard navigation
 - **Do's and Don'ts**: Visual examples of proper usage
-
-![Component Documentation Example](images/component-doc-example.svg "Component documentation anatomy and guidelines")
-
-
+ 
+![Component Documentation Standards](images/component-doc-standards.svg "What to include in component docs: purpose, usage, anatomy, behavior, a11y, do/don't")
 #### Version Control and Change Management
 
 Implement a robust change management process:
@@ -367,7 +369,7 @@ Even though Figma is a visual tool, thinking in API terms helps:
 - **Forward Compatibility**: Designs that can evolve gracefully
 - **Integration Points**: How components connect with development
 
-![Scaling Across Products and Platforms](images/scaling-architecture.svg "Architecture for scaling across products and platforms")
+
 
 
 ```mermaid
@@ -386,6 +388,7 @@ flowchart TB
   classDef box fill:#F8FAFC,stroke:#CBD5E1,color:#0F172A;
   class DS,Web,Mobile,Desktop,Tokens,Libs,Templates box;
 ```
+
 
 ---
 
@@ -451,7 +454,10 @@ Leverage Figma's plugin ecosystem for better handoff:
 - **Figma to Zeplin**: Advanced specs and asset export
 
 ![Design to Code Handoff](images/code-handoff.svg "Design-to-code handoff and tooling")
+_Caption: Align tokens and specs with engineering via plugins, exports, and Storybook._
 
+![Design Token Pipeline](images/design-token-pipeline.svg "Figma variables to platform tokens pipeline")
+_Caption: Export variables → transform with build tools → deliver platform tokens for code._
 
 ---
 
@@ -483,6 +489,7 @@ Accessibility should not be an afterthought—it should be baked into every comp
 
 
 ### Inclusive Design Principles
+
 
 #### Global Considerations
 - **Right-to-Left (RTL) Support**: Design components that work in both directions
@@ -550,9 +557,6 @@ Figma continues to evolve. Prepare for:
 - **3D and Spatial Design**: Support for AR/VR interfaces
 - **Advanced Animations**: More sophisticated micro-interactions
 - **Better Developer Tools**: Improved design-to-code workflows
-
-![Future: AI-Assisted Design Systems](images/future-ai-concepts.svg "AI-assisted and future design system concepts")
-
 
 ### Evolution Strategies
 
@@ -626,6 +630,22 @@ Successful design systems rely on systematic validation through comprehensive ch
 - [ ] **Backward Compatibility**: Existing implementations remain functional
 - [ ] **Cross-Theme Testing**: Validated across light, dark, and high-contrast modes
 
+#### Design Token Checklist (detailed)
+
+| Aspect            | What to standardize                                         | Example                                             |
+| ----------------- | ----------------------------------------------------------- | --------------------------------------------------- |
+| Color             | Define and register brand/UI colors as Color Styles         | primary/500: #0055FF; surface: #FFFFFF              |
+| Typography        | Record families, sizes, line-height, weights as Text Styles | heading/h1: 32px bold 120%; body: 16px regular 150% |
+| Spacing           | Publish a scale for paddings/margins                        | space/1 = 4px; space/4 = 16px                       |
+| Radius            | Corner radii tokens for common components                   | sm: 4px; md: 8px; lg: 12px                          |
+| Elevation         | Shadow/blur tokens for depth                                | elevation/1: 0 1px 3px rgba(0,0,0,.2)               |
+| Icon & Grid       | Icon sizes and base grid                                    | icon/s: 16px; grid/base: 8px                        |
+| Component Binding | Components consume tokens via props/variants                | Button.primary uses color.primary/500               |
+| Token Management  | Use a structured workflow to manage/export                  | Export to JSON/Style Dictionary                     |
+| Dev Handoff       | Link tokens to build outputs                                | CSS variables, Android/iOS tokens                   |
+| Global Change     | Token edits propagate across UI                             | Update primary/500 and UI updates globally          |
+
+
 #### Responsive Design Checklist
 **For every component and layout:**
 - [ ] **Breakpoint Behavior**: Tested across all supported screen sizes
@@ -634,6 +654,22 @@ Successful design systems rely on systematic validation through comprehensive ch
 - [ ] **Orientation Support**: Functions in both portrait and landscape
 - [ ] **Performance Impact**: Responsive behavior doesn't compromise load times
 - [ ] **Cross-Device Testing**: Validated on actual devices, not just browser tools
+
+#### Responsive Design Checklist (detailed)
+
+| Aspect                     | What to define                                                      | Why it matters                       |
+| -------------------------- | ------------------------------------------------------------------- | ------------------------------------ |
+| Breakpoints                | Declare supported widths (e.g., 320, 768, 1024, 1440) and policies  | Clear expectations across design/dev |
+| Layout Rules               | Grid, column drops, card reordering per breakpoint                  | Predictable layout behavior          |
+| Component Changes          | Per-component rules for wrap/hide/reflow using Variants/Auto Layout | Reliable responsiveness              |
+| Text Resizing              | Rules for font size/line-height changes (clamp, rem)                | Readability across sizes             |
+| Nav/UI Patterns            | When headers collapse, menu switches, etc.                          | Consistent interactions              |
+| Hide/Show Rules            | Elements hidden by size or mobile-only alternatives                 | Intentional content strategy         |
+| Auto Layout & Constraints  | Reproducible, inspectable responsive behavior                       | Smooth developer handoff             |
+| Content Priority           | What is omitted on smaller screens                                  | Focus on essentials                  |
+| Implementation Consistency | Link concepts to CSS media queries                                  | Fewer divergences                    |
+| Documentation              | Summarize rules in files and guides                                 | Shared reference for stakeholders    |
+
 
 #### Accessibility Checklist
 **Essential for inclusive design:**
@@ -644,6 +680,24 @@ Successful design systems rely on systematic validation through comprehensive ch
 - [ ] **Motion Sensitivity**: Respects prefers-reduced-motion preferences
 - [ ] **Cognitive Load**: Simple, predictable interaction patterns
 
+
+#### Accessibility Checklist (detailed)
+
+| Aspect | What to ensure | Notes |
+| --- | --- | --- |
+| Color Contrast | Meet or exceed WCAG AA ratios | 4.5:1 normal text; 3:1 large text |
+| Focus Indicator | Visible focus states for keyboard use | Show clear outlines/offsets |
+| Text Readability | Adequate size, line-height, margins | At least 14–16px, 1.4–1.6 line-height |
+| Target Size | Comfortable tap areas | 44×44px minimum on touch |
+| Don’t Rely on Color | Convey meaning with text/icons as well | Error = red + icon + text |
+| Explicit Labels | Provide descriptive labels and hints | e.g., “Search” is not just an icon |
+| Motion Consideration | Avoid excessive motion; respect preferences | Provide controls/disable options |
+| Screen Reader Support | Use semantic roles and ARIA where appropriate | Communicate state and purpose |
+| Error Messaging | Clear visual + textual feedback | Color plus message and icon |
+| Keyboard Interaction | Tab/Enter/Esc navigation paths | Expect keyboard-only operation |
+| Documentation | Capture all rules in guidelines | Shared with designers and developers |
+
+
 #### Component Definition Checklist
 **Before publishing any component:**
 - [ ] **Use Case Clarity**: Clear problem definition and solution approach
@@ -653,6 +707,22 @@ Successful design systems rely on systematic validation through comprehensive ch
 - [ ] **Integration Testing**: Works correctly with related components
 - [ ] **Performance Benchmarks**: Meets established performance criteria
 
+#### Component Definition Checklist (detailed)
+
+| Property                | What to capture                               | Example                                       |
+| ----------------------- | --------------------------------------------- | --------------------------------------------- |
+| Scope & Granularity     | Define the unit of a component clearly        | Card (image + title + link) is one unit       |
+| Reusable in Figma       | Register as Components/Variants for reuse     | Primary/Secondary/Disabled variants           |
+| States                  | Specify Hover, Focus, Active, Disabled, etc.  | Provide clear visual diffs for devs           |
+| Naming & Mapping        | Component names align with implementation     | Names used in code mirror Figma names         |
+| Responsive Design       | Describe patterns per breakpoint/size         | Behavior at each size is visible at a glance  |
+| Content Structure       | Define properties/data the component expects  | title, imageURL, ctaText, destination         |
+| Operational Notes       | Consider CMS/ops constraints where relevant   | Flexible structure for text/image replacement |
+| Core Compatibility      | Prefer reuse/extension over net-new           | Evaluate reuse before building your own       |
+| Accessibility           | Include ARIA roles, labels, keyboard behavior | Notes included as developer annotations       |
+| Documentation & Listing | List all components with specs and usage      | Maintain a browsable component catalog        |
+
+
 #### Naming Conventions and Configuration Checklist
 **For systematic organization:**
 - [ ] **Consistent Nomenclature**: Follows established naming patterns
@@ -661,6 +731,21 @@ Successful design systems rely on systematic validation through comprehensive ch
 - [ ] **Version Control**: Proper version tagging and change documentation
 - [ ] **Metadata Completeness**: Tags, descriptions, and usage notes included
 - [ ] **Cross-Platform Alignment**: Names translate correctly across tools and platforms
+
+#### Naming Conventions & Configuration (detailed)
+
+| Aspect | What to establish | Examples |
+| --- | --- | --- |
+| Document Rules | Clear naming rules for styles, components, variants | button/primary/hover |
+| Consistency | Unify prefixes, suffixes, delimiters | text/body/small; color/brand/primary |
+| Logical Structure | Semantic grouping of Pages/Frames/Components | Pages → 01_Home, 02_About |
+| Map to Implementation | Names align with implementation code | component/card-news → cardNews |
+| Variant/Prop Naming | Predictable names for size/type/state | size: sm/md/lg; type: primary/secondary |
+| Style Names | Semantic color/typography names | color/brand/primary; text/body/regular |
+| Reusable/Resistant | Changes are localized and predictable | BG color edits don’t affect other configs |
+| Asset Organization | Classified by purpose/category | icon/navigation/arrow-left |
+| Unified Structure | Cohesive hierarchy across files | Consistent structure for Pages/Libraries/Styles |
+| Low Learning Curve | Easy to infer rules for newcomers | Minimal onboarding required |
 
 
 
@@ -801,10 +886,8 @@ Each gate includes specific checklist validation and requires approval before pr
 - Advanced feature development
 - External sharing and thought leadership
 
-![Implementation Roadmap (Gantt)](images/gantt-roadmap.svg "Implementation roadmap and timeline (Gantt)")
+----
 
-
----
 
 ## Conclusion: The Future is Systematic
 
@@ -853,7 +936,6 @@ Your users, your team, and your future self will thank you.
 
 ---
 
-**About the Author**
-This comprehensive guide synthesizes industry best practices, real-world experience, and deep analysis of successful design system implementations. The strategies presented here have been tested and validated across organizations of all sizes, from startups to Fortune 500 companies.
-
+** Author Prologue**
+This comprehensive guide synthesizes industry best practices, real-world experience, and deep analysis of successful design system implementations. 
 *Connect with me to continue the conversation about design systems and share your own experiences building scalable design solutions.*
