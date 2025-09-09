@@ -620,7 +620,7 @@ Successful design systems rely on systematic validation through comprehensive ch
 
 #### Design Token Checklist
 **Before releasing any token updates:**
-- [ ] **Accessibility Compliance**: All color contrasts meet WCAG 2.1 AA standards
+- [ ] **Accessibility Compliance**: All color contrasts meet WCAG 2.2 AAA standards
 - [ ] **Platform Consistency**: Tokens work across web, mobile, and other platforms  
 - [ ] **Naming Convention**: Follows established semantic naming patterns
 - [ ] **Documentation**: Updated usage guidelines and examples
