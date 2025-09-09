@@ -1,7 +1,7 @@
 # Mastering Figma Design Systems: A Comprehensive Guide to Building Scalable, Future-Ready Design Solutions
 
 ![Cover: Mastering Figma Design Systems](images/cover-design-systems.svg "Strategy → Tokens → Components → Patterns → Templates → Code, guided by five pillars")
-_Caption: Strategy → Tokens → Components → Patterns → Templates → Code, guided by five pillars._
+Strategy → Tokens → Components → Patterns → Templates → Code
 
 *Transform your design workflow with battle-tested strategies for creating robust design systems in Figma*
 
