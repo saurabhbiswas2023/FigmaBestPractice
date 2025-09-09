@@ -663,7 +663,7 @@ Successful design systems rely on systematic validation through comprehensive ch
 - [ ] **Metadata Completeness**: Tags, descriptions, and usage notes included
 - [ ] **Cross-Platform Alignment**: Names translate correctly across tools and platforms
 
-![Five Pillars of a Successful Design System](images/five-pillars.svg "Five core pillars of design system success")
+
 
 
 ### Quality Gates and Validation Workflow
@@ -729,10 +729,10 @@ Each gate includes specific checklist validation and requires approval before pr
 
 ## Chapter 13: Implementation Roadmap - Your Journey to Design System Success
 
-### Phase 1: Foundation (Months 1-2)
+### Phase 1: Foundation
 **Objectives**: Establish basic infrastructure and team buy-in
 
-**Week 1-2: Research and Planning**
+**Research and Planning**
 - **Strategy Definition**: Clarify objectives and define scope
 - Audit existing design patterns and technical constraints
 - Interview key stakeholders across design, development, and product teams
@@ -740,60 +740,60 @@ Each gate includes specific checklist validation and requires approval before pr
 - Choose team structure, roles, and decision-making processes
 - **Integration Assessment**: Evaluate current CMS/framework setup and integration requirements
 
-**Week 3-4: Foundation Setup**
+**Foundation Setup**
 - Create Figma organization structure with proper file hierarchy
 - **Define Design Tokens**: Establish color, typography, spacing, elevation, and icon systems
 - Build comprehensive design token library using Figma variables
 - Set up documentation framework with checklist templates
 - Initialize version control and change management processes
 
-**Week 5-6: Core Components**
+**Core Components**
 - **Apply Atomic Design**: Build essential atoms (buttons, inputs, typography)
 - **Use Variants & Auto Layout**: Create flexible, responsive molecules (form groups, cards, teasers)
 - **Checklist Implementation**: Apply component definition checklist to each element
 - Establish naming conventions and metadata standards
 - Begin team training on systematic component usage
 
-**Week 7-8: Testing and Refinement** 
+**Testing and Refinement** 
 - **Validation Process**: Run all components through accessibility and responsive design checklists
 - Pilot with one product team using systematic feedback collection
 - **1:1 Mapping Setup**: Establish component correspondence with the development codebase
 - Refine based on real usage patterns and checklist findings
 - Document lessons learned and update process guidelines
 
-### Phase 2: Expansion (Months 3-4)
+### Phase 2: Expansion 
 **Objectives**: Scale to more components and teams
 
-**Month 3: Component Library Growth**
+**Component Library Growth**
 - **Build & Reassemble**: Add complex organisms (navigation, headers, forms, news sections)
 - **Componentize in Codebase**: Establish 1:1 mapping with development components
 - Build template and layout systems with systematic validation
 - **Storybook Integration**: Plan and implement component story creation
 - Expand documentation using established checklist framework
 
-**Month 4: Process Maturation**
+**Process Maturation**
 - **Consolidate Design Patterns**: Systematically review and optimize component relationships
 - Establish formal contribution workflows with quality gates
 - Implement comprehensive change management processes  
 - Create advanced training materials with checklist methodologies
 - Begin measuring adoption metrics against the five core criteria
 
-### Phase 3: Optimization (Months 5-6)
+### Optimization 
 **Objectives**: Refine based on usage data and feedback
 
-**Month 5: Data-Driven Improvements**
+**Data-Driven Improvements**
 - Analyze usage patterns
 - Optimize underperforming components
 - Address technical debt
 - Expand accessibility features
 
-**Month 6: Advanced Features**
+**Advanced Features**
 - Implement theming and multi-brand support
 - Add advanced animations and micro-interactions
 - Build specialized component families
 - Prepare for wider organization rollout
 
-### Phase 4: Scale and Mature (Months 7+)
+### Phase 4: Scale and Mature
 **Objectives**: Full organizational adoption and continuous improvement
 
 **Ongoing Activities:**
