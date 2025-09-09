@@ -11,7 +11,7 @@ In today's fast-paced digital landscape, the difference between successful produ
 Figma has emerged as the leading platform for collaborative design, and with it, the opportunity to build design systems that truly scale. But creating an effective design system in Figma isn't just about organizing components in neat folders. It's about establishing a living, breathing ecosystem that empowers teams, accelerates development, and ensures consistent user experiences across every touchpoint.
 
 ![Evolution: Scattered Files to Organized Design System](images/intro-evolution.svg "Evolution from scattered files to organized design system")
-_Caption: Centralize patterns and assets to drive consistency, reuse, and delivery speed._
+
 
 ---
 
@@ -38,7 +38,7 @@ Figma's real-time collaboration capabilities have revolutionized how teams appro
 5. **Plugin Ecosystem**: Extensibility for specialized workflows
 
 ![Traditional vs. Figma-Based Workflow](images/figma-vs-traditional-workflow.svg "Traditional vs. Figma-based workflow comparison")
-_Caption: Real-time collaboration, variants, and variables replace siloed files and waterfall handoffs._
+
 
 ---
 
@@ -123,7 +123,7 @@ The atomic level includes fundamental UI elements that serve as building blocks:
 - Application shells
 
 ![Atomic Design Hierarchy](images/atomic-hierarchy.svg "Atomic design hierarchy from tokens to pages")
-_Caption: Build from tokens → atoms → molecules → organisms → templates for scalable reuse._
+
 
 ```mermaid
 flowchart TB
@@ -198,7 +198,7 @@ Auto Layout is the secret weapon for creating truly responsive components. Best 
 - **Direction Control**: Know when to stack horizontally vs. vertically
 
 ![Auto Layout Demo](images/auto-layout-demo.svg "Auto Layout demonstration of responsive structure")
-_Caption: Use Auto Layout for predictable spacing, responsive resizing, and nested layouts._
+
 
 #### 3. State Management
 
@@ -245,7 +245,7 @@ Color Variables Structure:
 - **Platform Modes**: iOS vs Android vs Web variations
 
 ![Mode Comparison: Light, Dark, High Contrast](images/modes-comparison.svg "Modes: light, dark, and high contrast")
-_Caption: Manage theming with variables across light, dark, and high-contrast modes._
+
 
 ### Component Architecture Patterns
 
@@ -301,7 +301,7 @@ Every component should include:
 - **Do's and Don'ts**: Visual examples of proper usage
 
 ![Component Documentation Example](images/component-doc-example.svg "Component documentation anatomy and guidelines")
-_Caption: Document purpose, anatomy, states, usage, and accessibility for every component._
+
 
 #### Version Control and Change Management
 
@@ -329,7 +329,7 @@ Implement a robust change management process:
 6. **Adoption Support**: Help teams implement the changes
 
 ![Contribution & Review Workflow](images/workflow-contribution.svg "Contribution and review workflow for design systems")
-_Caption: Contribution flow: RFC → review → prototype → docs → release → adoption support._
+
 
 ---
 
@@ -369,7 +369,7 @@ Even though Figma is a visual tool, thinking in API terms helps:
 - **Integration Points**: How components connect with development
 
 ![Scaling Across Products and Platforms](images/scaling-architecture.svg "Architecture for scaling across products and platforms")
-_Caption: Modular libraries, tokens, and templates enable multi-product, multi-platform scale._
+
 
 ```mermaid
 flowchart TB
@@ -452,7 +452,7 @@ Leverage Figma's plugin ecosystem for better handoff:
 - **Figma to Zeplin**: Advanced specs and asset export
 
 ![Design to Code Handoff](images/code-handoff.svg "Design-to-code handoff and tooling")
-_Caption: Align tokens and specs with engineering via plugins, exports, and Storybook._
+
 
 ---
 
@@ -481,7 +481,7 @@ Accessibility should not be an afterthought—it should be baked into every comp
 - **Motion Sensitivity**: Respect users' motion preferences
 
 ![Accessibility Examples](images/accessibility-examples.svg "Accessibility examples and WCAG considerations")
-_Caption: Ensure contrast, focus indicators, touch targets, and assistive tech support._
+
 
 ### Inclusive Design Principles
 
@@ -553,7 +553,7 @@ Figma continues to evolve. Prepare for:
 - **Better Developer Tools**: Improved design-to-code workflows
 
 ![Future: AI-Assisted Design Systems](images/future-ai-concepts.svg "AI-assisted and future design system concepts")
-_Caption: Prepare for AI-assisted creation, advanced variables, and richer interactions._
+
 
 ### Evolution Strategies
 
@@ -664,7 +664,7 @@ Successful design systems rely on systematic validation through comprehensive ch
 - [ ] **Cross-Platform Alignment**: Names translate correctly across tools and platforms
 
 ![Five Pillars of a Successful Design System](images/five-pillars.svg "Five core pillars of design system success")
-_Caption: Validate decisions against consistency, scalability, efficiency, clarity, and governance._
+
 
 ### Quality Gates and Validation Workflow
 
@@ -724,8 +724,6 @@ Each gate includes specific checklist validation and requires approval before pr
 **The Problem**: Never releasing because the system isn't "perfect"
 **The Solution**: Ship early and iterate based on real usage
 
-![Top 10 Design System Mistakes](images/ten-mistakes.svg "Top ten design system mistakes to avoid")
-_Caption: Avoid over-engineering, weak governance, late a11y, and perfection paralysis._
 
 ---
 
@@ -805,7 +803,7 @@ _Caption: Avoid over-engineering, weak governance, late a11y, and perfection par
 - External sharing and thought leadership
 
 ![Implementation Roadmap (Gantt)](images/gantt-roadmap.svg "Implementation roadmap and timeline (Gantt)")
-_Caption: Phased plan from foundation → expansion → optimization → scale and maturity._
+
 
 ---
 
@@ -847,10 +845,8 @@ Your users, your team, and your future self will thank you.
 
 ---
 
-![Team Collaboration](images/team-collaboration.svg "Team collaboration and governance model")
-_Caption: Hub-and-spoke model with clear roles, reviews, and quality gates accelerates adoption._
 
----
+
 
 *What's your experience with design systems in Figma? Share your successes, challenges, and lessons learned in the comments below. Let's continue the conversation and help each other build better design systems.*
 
