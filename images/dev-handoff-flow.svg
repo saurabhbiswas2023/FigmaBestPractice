@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" fill="#ffffff"/>
+  <text x="600" y="40" text-anchor="middle" font-family="Inter, Arial" font-size="26" fill="#0F172A" font-weight="700">Design → Code Handoff</text>
+
+  <g font-family="Inter, Arial" font-size="16" fill="#0F172A">
+    <!-- nodes -->
+    <g stroke="#94A3B8" stroke-width="2" fill="#FFFFFF">
+      <rect x="100" y="160" width="190" height="60" rx="12"/>
+      <rect x="370" y="100" width="200" height="60" rx="12"/>
+      <rect x="370" y="220" width="200" height="60" rx="12"/>
+      <rect x="640" y="160" width="200" height="60" rx="12"/>
+      <rect x="910" y="100" width="200" height="60" rx="12"/>
+      <rect x="910" y="220" width="200" height="60" rx="12"/>
+    </g>
+    <text x="195" y="198" text-anchor="middle" font-weight="600">Figma Component</text>
+    <text x="470" y="138" text-anchor="middle">Exported Tokens</text>
+    <text x="470" y="258" text-anchor="middle">Component Specs</text>
+    <text x="740" y="198" text-anchor="middle">Build Pipeline</text>
+    <text x="1010" y="138" text-anchor="middle">Storybook / Docs</text>
+    <text x="1010" y="258" text-anchor="middle">Code Components</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#334155" stroke-width="3" fill="none">
+    <path d="M290,190 C340,160 360,150 370,130"/>
+    <path d="M290,190 C340,220 360,230 370,250"/>
+    <path d="M570,130 C620,160 630,170 640,180"/>
+    <path d="M570,250 C620,220 630,210 640,200"/>
+    <path d="M840,180 C900,150 920,140 910,130"/>
+    <path d="M840,200 C900,230 920,240 910,250"/>
+  </g>
+</svg>
+
