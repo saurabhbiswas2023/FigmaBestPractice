@@ -122,7 +122,6 @@ The atomic level includes fundamental UI elements that serve as building blocks:
 - Grid systems
 - Application shells
 
-![Atomic Design Hierarchy](images/atomic-hierarchy.svg "Atomic design hierarchy from tokens to pages")
 
 
 ```mermaid
